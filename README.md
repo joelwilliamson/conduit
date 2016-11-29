@@ -632,7 +632,7 @@ main = runConduit
     .| stdoutC
 ```
 
-__EXERCISE__ Pipe the output of this snippet to `base64 -D` on the
+__EXERCISE__ Pipe the output of this snippet to `base64 -d` on the
 command line.
 
 You can also perform monadic actions while transforming. We've seen
